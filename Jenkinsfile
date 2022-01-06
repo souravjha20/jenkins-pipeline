@@ -7,8 +7,8 @@ pipeline {
                 echo 'Build the job'
                 sh '''#!/bin/bash
                 # Add two numeric value
-                ((sum=25+35))
-                ((sum=30+20))
+                ((sum=23+55))
+                ((sum=32+41))
 
                 #Print the result
                 echo $sum'''
